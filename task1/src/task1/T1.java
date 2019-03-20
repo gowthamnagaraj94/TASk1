@@ -14,7 +14,16 @@ public class T1 {
 		}
 	}
 	}
+		int b=10; int i=0; int j=0;
+		while(a>0) {
+			i=b%10;
+			j=j+(i*i*i);
+			b=b/10;
+		}
+		{
+			System.out.println("amastrong");
+		}
+		
 	
-
 }
-}
+		
