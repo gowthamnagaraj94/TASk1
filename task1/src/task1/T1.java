@@ -6,8 +6,13 @@ public class T1 {
 	if(a%2==0) {
 		System.out.println("even");
 	}
-	else {
-		System.out.println("odd");
+
+		{
+	for (int i=0;i<10;i++) {
+		if(a%2==0) {
+			System.out.println(i);
+		}
+	}
 	}
 	
 
